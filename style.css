@@ -12,14 +12,15 @@ PALETA DE CORES:
 */
 
 :root{
-    --cor1: color #011FEB;
-    --cor2: color #4700FA;
-    --cor3: color #190BD4;
-    --cor4: color #0B4ED4;
-    --cor5: color #0C8BF7;
+    --cor1: #011FEB;
+    --cor2: #4700FA;
+    --cor3: #190BD4;
+    --cor4: #0B4ED4;
+    --cor5: #0C8BF7;
+    --cor6: #0c89f781;
 
-    /*--fonte1: 'Ubuntu Mono', monospace;*/
-    --fonte1: 'Courier Prime', monospace;*/
+    --fonte1: 'Ubuntu Mono', monospace;
+    /*--fonte1: 'Courier Prime', monospace;*/
 }
 
 p{
@@ -28,11 +29,49 @@ p{
     color: white
 }
 
+h2 {
+    text-align: center;
+    color: var(--cor4);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    text-align: right;
+    padding: 1px;
+    border: 1px;
+    margin: 1px;
+
+}
+
 body{
     background-color: grey;
 }
 
-img {
-    width: 300px;
-    opacity: ;
+#tecnologias {
+    text-align: center;
+}
+
+#img-tec {
+    width: 50px;
+    opacity: 50%;
+    filter: grayscale(100%);
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0px 0px 1px 2px white;
+    
+    
+}
+
+#img-tec:hover {
+    filter: grayscale(0%);
+    opacity: 100%;
+    box-shadow: 0px 0px 30px 5px var(--cor6);
+    border-radius: 30%;
+    transition: 0.4s;
+}
+
+#img-perfil {
+    border-radius: 50%;
+    width: 180px;
+    box-shadow: 1px 1px 10px 2px black;
 }
