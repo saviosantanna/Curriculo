@@ -21,6 +21,9 @@ PALETA DE CORES:
 
     --fonte1: 'Ubuntu Mono', monospace;
     /*--fonte1: 'Courier Prime', monospace;*/
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 p{
@@ -40,11 +43,49 @@ nav {
     padding: 1px;
     border: 1px;
     margin: 1px;
+}
 
+nav > a {
+    text-decoration: none;
+    color: var(--cor5);
+}
+
+.hr-nav {
+    border-width: 2px;
+    width: 100%;
+    text-align: center;
+    border-color: var(--cor6);
 }
 
 body{
-    background-color: grey;
+    background-color: black;
+}
+
+section {
+    max-width: 80%;
+    margin: auto;
+}
+
+.hr-section {
+    border-width: 1px;
+    width: 65%;
+    text-align: center;
+    border-color: var(--cor6);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-content: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+.div-img-perfil {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5vw;
 }
 
 #tecnologias {
@@ -71,7 +112,7 @@ body{
 }
 
 #img-perfil {
-    border-radius: 50%;
-    width: 180px;
+    border-radius: 20%;
+    width: 20vw;
     box-shadow: 1px 1px 10px 2px black;
 }
