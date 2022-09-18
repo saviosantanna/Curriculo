@@ -28,7 +28,7 @@ PALETA DE CORES:
 
 p{
     font-family: var(--fonte1);
-    font-size: 2em;
+    font-size: 2.2vw;
     color: white
 }
 
@@ -36,6 +36,7 @@ h2 {
     text-align: center;
     color: var(--cor4);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 3vw;
 }
 
 nav {
@@ -43,11 +44,19 @@ nav {
     padding: 1px;
     border: 1px;
     margin: 1px;
+    font-size: 2.2vw;
 }
 
 nav > a {
     text-decoration: none;
     color: var(--cor5);
+    margin-right: 25px;
+}
+
+nav > a:hover {
+    color: var(--cor6);
+    transition: 1s;
+    text-decoration: underline
 }
 
 .hr-nav {
@@ -79,7 +88,6 @@ section {
     text-align: left;
     align-content: center;
     justify-content: center;
-    font-size: 1.2vw;
 }
 
 .div-img-perfil {
