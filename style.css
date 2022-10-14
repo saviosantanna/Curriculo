@@ -45,12 +45,31 @@ nav {
     border: 1px;
     margin: 1px;
     font-size: 2.2vw;
+    display: none;
+    margin-bottom: 10px; 
 }
 
 nav > a {
     text-decoration: none;
     color: var(--cor5);
-    margin-right: 25px;
+    margin-right: 10px;
+    display: block;    
+}
+
+#itens {
+    float: right;
+    padding: 5px;
+    background-color: rgba(211, 211, 211, 0.4);
+    border: 1px solid var(--cor4);
+    border-radius: 3px;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+}
+
+#itens > a {
+    margin: 10px;
+    border-bottom: 1px solid var(--cor6);
 }
 
 nav > a:hover {
@@ -123,4 +142,17 @@ section {
     border-radius: 20%;
     width: 20vw;
     box-shadow: 1px 1px 10px 2px black;
+}
+
+i#burguer {
+    color: white;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+    color: var(--cor5);
+}
+
+i#burguer:hover{
+    color: var(--cor6);
+    transition: 1s;
 }
