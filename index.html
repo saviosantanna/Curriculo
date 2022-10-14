@@ -43,9 +43,9 @@
         <section id="tecnologias">
             <h2>Tecnologias</h2>
             <img id="img-tec" src="imagens/logo-c++.png" alt="img-c++">
-            <img id="img-tec" src="imagens/logo-css3.png" alt="">
-            <img id="img-tec" src="imagens/logo-html5.png" alt="">
-            <img id="img-tec" src="imagens/logo-github.png" alt="">
+            <img id="img-tec" src="imagens/logo-css3.png" alt="img-css3">
+            <img id="img-tec" src="imagens/logo-html5.png" alt="img-html5">
+            <img id="img-tec" id="img-tec-github" src="imagens/logo-github2-inverse.png" onmouseover="this.src='imagens/logo-github2.png';" onmouseout="this.src='imagens/logo-github-inverse.png';" alt="img-github">
             <br><br><br><br>
             <img src="imagens/logo-sienge.png" alt="">
         </section>
@@ -68,8 +68,10 @@
         if (itens.style.display == 'block'){
             itens.style
             .display = 'none'
+            burguer.innerText = 'menu'
         } else {
             itens.style.display ='block'
+            burguer.innerText = 'close'
         }
     }
 
@@ -78,8 +80,10 @@
             itens.style.display = 'block'
         } else {
             itens.style.display = 'none'
+            burguer.innerText = 'menu'
         }
     }
+    
 </script>
 </body>
 </html>
