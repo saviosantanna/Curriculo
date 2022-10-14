@@ -28,7 +28,7 @@ PALETA DE CORES:
 
 p{
     font-family: var(--fonte1);
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: white
 }
 
@@ -36,7 +36,7 @@ h2 {
     text-align: center;
     color: var(--cor4);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    font-size: 5vw;
+    font-size: 7vw;
     margin: 25px 0px;
 }
 
@@ -64,9 +64,10 @@ nav > a {
     border: 1px solid var(--cor4);
     border-radius: 3px;
     position: absolute;
-    top: 35px;
+    top: 55px;
     right: 10px;
     display: none;
+    font-size: 20px;
 }
 
 #itens > a {
