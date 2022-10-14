@@ -65,6 +65,7 @@ nav > a {
     position: absolute;
     top: 35px;
     right: 10px;
+    display: block;
 }
 
 #itens > a {
@@ -126,8 +127,6 @@ section {
     padding: 5px;
     margin: 5px;
     box-shadow: 0px 0px 1px 2px white;
-    
-    
 }
 
 #img-tec:hover {
