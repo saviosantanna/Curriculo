@@ -14,7 +14,7 @@
         <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
             menu
         </i>
-        <nav id="itens">
+        <nav id="itens" onclick="closeMenu()">
             <a href="#sobre">Sobre</a>
             <a href="#tecnologias">Tecnologias</a>
             <a href="#projetos">Projetos</a>
@@ -66,8 +66,7 @@
  <script>
     function clickMenu(){
         if (itens.style.display == 'block'){
-            itens.style
-            .display = 'none'
+            itens.style.display = 'none'
             burguer.innerText = 'menu'
         } else {
             itens.style.display ='block'
@@ -79,6 +78,13 @@
         if (window.innerWidth >= 768){
             itens.style.display = 'block'
         } else {
+            itens.style.display = 'none'
+            burguer.innerText = 'menu'
+        }
+    }
+
+    function closeMenu(){
+        if (itens.style.display == 'block'){
             itens.style.display = 'none'
             burguer.innerText = 'menu'
         }
