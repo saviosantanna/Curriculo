@@ -34,7 +34,7 @@ p{
 
 h2 {
     text-align: center;
-    color: var(--cor4);
+    color: red;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     font-size: 3vw;
 }
